@@ -25,3 +25,21 @@ h3 {
   max-width: 700px;
   max-height: 700px;
 }
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn {
+  border: none;
+  color: rgb(252, 248, 252);
+  padding: 14px 28px;
+  cursor: pointer;
+  background-color: #bb30be;
+  border-radius: 4px;
+  display: block;
+  margin: 15px 0;
+}
+.success:hover {
+  background-color: #46a049;
+}
